@@ -107,7 +107,12 @@ body {
     height: 100%;
 }
 
-.publication-body img {
+.publication-body img {  
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .results-carousel {
